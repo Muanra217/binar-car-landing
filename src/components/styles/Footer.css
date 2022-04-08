@@ -1,0 +1,10 @@
+.Footer ul li {
+    list-style-type: none; /*remove dot style*/
+}
+
+.Footer .logo {
+    font-size: 50px;
+    font-weight: 900;
+    color: #0D28A6 !important;
+    text-decoration: none;
+}
