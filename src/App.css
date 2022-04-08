@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .ImageLogin {
+  background-image: url('./images/bg-login.png');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0D28A6;
+}
+
+.Login {
+  display: flex;
+} */
+
+/*Modal*/
+.SearchModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.SearchModal .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
